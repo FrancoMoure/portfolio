@@ -30,7 +30,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>3+ years at National University Of Quilmes</li>
         <li>Online Tutorials and self learning</li>
-        <li>100's of hours of learning</li>
+        <li>100 s of hours of learning</li>
         <li>YouTube tutorials</li>
         <li>W3 Schools</li>
         <li>FreeCodeCamp.org</li>
