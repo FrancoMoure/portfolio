@@ -9,12 +9,17 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Next JS</li>
+        <li>React JS</li>
+        <li>Javascript</li>
+        <li>Tailwind Css</li>
+        <li>Css</li>
+        <li>Html</li>
+        <li>UI with Figma</li>
+        <li>UX</li>
+        <li>Git and GitHub</li>
+        <li>English, Spanish, Portuguese</li>
+        <li>and much more...</li>
       </ul>
     ),
   },
@@ -23,18 +28,36 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>3+ years at National University Of Quilmes</li>
+        <li>Online Tutorials and self learning</li>
+        <li>100's of hours of learning</li>
+        <li>YouTube tutorials</li>
+        <li>W3 Schools</li>
+        <li>FreeCodeCamp.org</li>
+        <li>Harward Programming Course</li>
+        <li>chatGPT for learning</li>
+        <li>UI/UX instagram accounts</li>
+        <li>Javascript instagram accounts</li>
+        <li>and much more...</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Soft Skills",
+    id: "soft-skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Self Learner</li>
+        <li>I learn very quick</li>
+        <li>Very strong communication skills</li>
+        <li>Native on Spanish and Fluent on English</li>
+        <li>I like to keep myself updated</li>
+        <li>Good at working remotely</li>
+        <li>Open to relocate if needed</li>
+        <li>I have european citizenship and passport</li>
+        <li>Teamwork is not a problem for me</li>
+        <li>Good at taking the lead and learning from others</li>
+        <li>and much more...</li>
       </ul>
     ),
   },
@@ -53,16 +76,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/webdev.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Frontend Next JS Developer. I am sure I can offer your business a lot of value. I have 3+ years of experince in web development and I am on continous learning. From HTML to NEXT JS my goal is to provide you as much value as I can and more!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -80,11 +98,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("soft-skills")}
+              active={tab === "soft-skills"}
             >
               {" "}
-              Certifications{" "}
+              Soft Skills{" "}
             </TabButton>
           </div>
           <div className="mt-8">
