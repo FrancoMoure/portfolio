@@ -11,8 +11,8 @@ const projectsData = [
     description: "Landing page for a pizza page. This is a very nice looking and useful landing page. Next JS and Tailwind CSS.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/pizza-shop",
+    previewUrl: "https://quiet-lollipop-e9403d.netlify.app/",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "This is this Portfolio Website. Next JS and Tailwind CSS.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/portfolio",
+    previewUrl: "https://glistening-croquembouche-f6a006.netlify.app/",
   },
   {
     id: 3,
@@ -38,8 +38,8 @@ const projectsData = [
     description: "Coffee shop landing page with Next JS and tailwind CSS.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/coffee-shop",
+    previewUrl: "https://musical-biscuit-fea4c4.netlify.app/",
   },
   {
     id: 5,
