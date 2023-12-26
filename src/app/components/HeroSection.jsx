@@ -49,8 +49,8 @@ const HeroSection = () => {
             </Link>
            
             <a
-              href="/ruta/a/tu/cv.pdf"  // Reemplaza esto con la ruta correcta a tu archivo PDF
-              download="TuNombre_CV.pdf"  // Puedes personalizar el nombre del archivo descargado
+              href="/resume2.1.pdf"
+              download="resume2.1.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-green-500 to-gray-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
