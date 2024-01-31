@@ -25,11 +25,11 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "API TEST FOR JOB INTERVIEW",
+    title: "API TEST FOR JOB INTERVIEW (CODE)",
     description: "Rick and Morthy API TEST.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/tecnic-test-api",
     previewUrl: "/",
   },
   {
@@ -52,11 +52,11 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Coming up next",
-    description: "coming up next.",
+    title: "CRUD API (CODE)",
+    description: "CRUD API CODE FOR TEST",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/CRUD_api",
     previewUrl: "/",
   },
 ];
