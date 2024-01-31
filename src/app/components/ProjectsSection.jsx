@@ -43,11 +43,11 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Coming up next",
-    description: "coming up next.",
+    title: "TECNIC TEST API (CODE)",
+    description: "tecnic test api code",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/FrancoMoure/tecnic-test-api",
     previewUrl: "/",
   },
   {
