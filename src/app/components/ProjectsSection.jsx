@@ -25,10 +25,10 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Shop Mobile App design on Figma",
-    description: "UI/UX Design for Iphone on Figma.",
+    title: "API TEST FOR JOB INTERVIEW",
+    description: "Rick and Morthy API TEST.",
     image: "/images/projects/3.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
